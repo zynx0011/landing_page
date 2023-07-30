@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>landing page</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  /> 
+ 
+    <style>
+      * { 
+        margin: 0;
+        padding: 0;
+        color: aliceblue; 
+        font-weight: bolder;
+        box-sizing: border-box; 
+      }
+      body{
+        background: linear-gradient(rgb(0 0 0 / 79%), rgb(0 0 0 / 82%)),url(yard-sale-pizza-1907.avif);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100%;
+      } 
+      nav {
+        height: 40px;
+        width: 100%;
+        
+      }
+      .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 17px;
+      }
+      .navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+      }
+      .navbar ul li {
+        cursor: pointer;
+        text-decoration: none;
+        list-style: none;
+        margin-right: 60px;
+        font-size: 20px;
+      }
+
+      .navbar ul li a{
+        text-decoration: none;
+        transition: all 0.5s;
+      }
+      .navbar ul li a:hover{
+        font-size: 30px;
+      }
+      .logo {
+        margin-right: 10%;
+        font-size: 24px;
+        }
+        
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 94.5vh;
+        }
+
+        .headline{
+        text-align: center;
+        }
+        .headline h1{
+            font-weight: bolder;
+            font-size: 5rem;
+        }
+        .headline p{
+            width: 50%;
+             margin-left: 24%;
+        }
+
+        .main2{
+            height: 100vh;
+            display: flex;
+            background:  linear-gradient(rgb(0 0 0 / 79%), rgb(0 0 0 / 82%)),url(pizza-barbacoa-para-cenar-definicion-posible.jpg);
+            justify-content: start;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .main2 h1{
+                 margin-left: 70px;
+                 margin-top: 40px;
+                 font-size: 40px;
+                 width: 100%;
+        }
+        .coupons{ 
+           width: 100%;
+        } 
+       .content{
+        margin-top: 10%;
+        margin-right: 40px;
+      }
+      .image{
+        margin-top: -46rem;
+    margin-left: 10%;
+    transition: all .5s;
+      }
+      .img{
+        transition: all  .5s;
+      }
+      .img:hover{
+        transform: scale(130%);
+        cursor: pointer;
+        border: 2px solid;
+        border-radius: 3px;
+      }
+      span hr{
+        margin-top: 30px;
+      }
+     .last{
+      display: flex;
+      justify-content: space-evenly ;
+      background:  linear-gradient(rgb(0 0 0 / 79%), rgb(0 0 0 / 0%)),url(istockphoto-1148837509-612x612.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+     }
+      .last-logo img{
+        width: 500px;
+      }
+      .btn{
+        background-color: red;
+        padding: 10px;
+        border-radius: 14px;
+        font-size: 1.3rem;
+        position: absolute;
+        left: 8%;
+        top: 262%;
+        cursor: pointer; 
+        transition: all .5s;
+      }
+      .btn:hover{
+        background-color: white;
+        color: red;
+      }
+      .btn2{
+        margin-left: 44%;
+        width: 30%;
+        margin-top: -5%;
+      }
+      form{
+        margin-top:90px;
+        margin-left: 20%;
+      }
+      form input{
+        width: 40vw;
+        border-radius:5px;
+        padding: 10px;
+        margin-top: 20px;
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="logo"><h1>Pizzeria</h1></div>
+        <ul>
+          <a href="/"><li>Home</a></li>
+          <a href="/"><li>Menu</a></li>
+          <a href="/"><li>services</a></li>
+          <a href="/"><li>Buy</a></li>
+          <a href="/"><li>Cart</a></li>
+          <a href="/"><li>My Order</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+        <section>
+            <div class="headline">
+                <h1>Welecome To Pizzeria</h1> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero tempore officiis harum quaerat voluptates dicta consequatur, placeat veniam. 
+                    
+                </p>
+            </div>
+        </section>
+<hr>
+        <div class="main2"> 
+                <h1>Coupons & Offers</h1>
+            </div>
+         
+            <div class="content">
+             <div class="image">
+              <img src="1.jpg" alt="" width="612" height="276" class="img">
+              <img src="2.jpg" alt="" width="612" height="276" class="img">
+              <img src="3.jpg" alt="" width="612" height="276" class="img">
+              <img src="4.jpg" alt="" width="612" height="276" class="img">
+             </div>
+               
+            </div>
+            
+        </div>
+       
+      </div> 
+    </main> 
+    <span><hr></span>
+    <div class="last">
+      <div class="last-logo">
+        <img src="—Pngtree—red creative texture hurry up_5335304.png" alt="">
+        <button class="btn">Book Your Pizza Now</button>
+      </div>
+      <div class="form">
+        <form >
+          <input type="text" name="name" placeholder="Enter Your Name" required>
+          <input type="number" name="number" placeholder="Enter Your Phone Number" required>
+          <input type="text" name="number" placeholder="Enter Your Address" required>
+          <input type="text" name="number" placeholder="Enter Pizza Name" required>
+         <button class="btn btn2" >Order Now</button>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script> 
+   
+      
+
+  </script>
+ 
+</html>
